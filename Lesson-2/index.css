@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    /* color: white; */
+    /* background-image: url(https://images.unsplash.com/photo-1659862096506-7a920affc205?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80); */
+    background-size: cover;
+}
+h1 {
+    font-size: 40px;
+    color: red;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+a:active {
+    font-size: 20px;
+}
+a:visited {
+    color: green;
+}
+
+p {
+    font-weight: bold;
+}
+/* Pseudo classes */e
+p:hover {
+    color: pink;
+}
+img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+img:hover {
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+}

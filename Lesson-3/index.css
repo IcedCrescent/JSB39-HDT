@@ -1,0 +1,56 @@
+h1 {
+    color: pink;
+    background-color: black;
+}
+
+/* id="second-heading" */
+#second-heading {
+    color: red;
+}
+
+/* class="itatlic-text" */
+.italic-text {
+    font-style: italic;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.navbar {
+    color: green;
+}
+
+.sidebar {
+    color: blue;
+}
+
+.content {
+    background-color: darkviolet;
+}
+
+/* All h1 insdie .sidebar */
+.sidebar h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* h1 at the first level of .sidebar */
+.sidebar > h1 {
+    text-decoration: underline;
+}
+
+table.styled-table tbody tr:nth-child(odd) {
+    background-color: green;
+}
+
+table.styled-table tbody tr:nth-child(even) {
+    background-color: red;
+}
+
+h1 + p {
+    
+}
+
+table {
+
+}
