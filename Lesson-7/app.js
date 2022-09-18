@@ -74,3 +74,40 @@ switch (myName) {
         console.log("I don't know you");
         break;
 }
+// % modulo
+// ** to the power of
+// e: exponent
+
+
+// Input: a number
+// check if the number is odd or even
+// let number = parseInt(prompt("Enter a number"));
+// console.log(number);
+// if (isNaN(number)) {
+//     alert("Invalid input");
+// } else if (number % 2 == 0){
+//     alert(`${number} is even`)
+// } else {
+//     alert(`${number} is odd`);
+// }
+
+// enter a, b, c
+// solve quadratic equation of ax^2 + bx + c
+let a = Number(prompt("a = "));
+let b = Number(prompt("b = "));
+let c = Number(prompt("c = "));
+
+let delta = b**2 - 4 * a * c;
+
+if (delta < 0) {
+    console.log("No solution");
+} else if (delta == 0) {
+    console.log("one solution");
+    let x = -b / (2 * a);
+    console.log(x);
+} else {
+    let x1 = (-b + Math.sqrt(delta)) / (2 * a);
+    let x2 = (-b - Math.sqrt(delta)) / (2 * a);
+
+    console.log(x1, x2);
+}
