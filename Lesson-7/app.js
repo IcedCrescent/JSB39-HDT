@@ -93,21 +93,42 @@ switch (myName) {
 
 // enter a, b, c
 // solve quadratic equation of ax^2 + bx + c
-let a = Number(prompt("a = "));
-let b = Number(prompt("b = "));
-let c = Number(prompt("c = "));
+// let a = Number(prompt("a = "));
+// let b = Number(prompt("b = "));
+// let c = Number(prompt("c = "));
 
-let delta = b**2 - 4 * a * c;
+// let delta = b**2 - 4 * a * c;
 
-if (delta < 0) {
-    console.log("No solution");
-} else if (delta == 0) {
-    console.log("one solution");
-    let x = -b / (2 * a);
-    console.log(x);
-} else {
-    let x1 = (-b + Math.sqrt(delta)) / (2 * a);
-    let x2 = (-b - Math.sqrt(delta)) / (2 * a);
+// if (delta < 0) {
+//     console.log("No solution");
+// } else if (delta == 0) {
+//     console.log("one solution");
+//     let x = -b / (2 * a);
+//     console.log(x);
+// } else {
+//     let x1 = (-b + Math.sqrt(delta)) / (2 * a);
+//     let x2 = (-b - Math.sqrt(delta)) / (2 * a);
 
-    console.log(x1, x2);
+//     console.log(x1, x2);
+// }
+// let start = 0;
+// while (start < 10) {
+//     console.log(start);
+//     start++;
+// }
+// console.log("----");
+// let x = 0;
+// do {
+//     console.log(x);
+//     x--;
+// } while (x > 0);
+
+let input = "";
+while (true) {
+    input = parseInt(prompt("Enter a number"));
+    if (!isNaN(input)) {
+        break;
+    } 
+    alert("Bruh! 😡")
 }
+console.log(input);
